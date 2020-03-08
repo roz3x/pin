@@ -1,0 +1,47 @@
+html,body{
+    width: 100%;
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+    background: #000;
+    font-family: spot;
+    color : #fff;
+}
+
+#search_bar{
+    margin: 0;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+    background: #444;
+    height: 7%;
+}
+
+#search {
+    width: 70%;
+    border: 0;
+    height: 95%;
+    text-align: center;
+    color: #000;
+    font-family: spot;
+    font-size: 2em;
+    display: r
+}
+
+#search_button{
+    color: #fff;
+    font-size: 1.7em;  
+    margin-left: .6em;
+}
+ 
+#photos > img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@font-face{
+    font-family: spot;
+    src: url("./font_2.woff2")
+}
