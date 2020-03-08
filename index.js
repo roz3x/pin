@@ -20,7 +20,7 @@ window.onload = () => {
 }
 
 function display ( query ) {
-    fetch("http://api.unsplash.com/search/photos?query="+query+"&count=20&client_id="+client_id)
+    fetch("https://api.unsplash.com/search/photos?query="+query+"&count=20&client_id="+client_id)
     .then(data => data.json())
     .then(data => {
         console.log(data)
