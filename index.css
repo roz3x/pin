@@ -6,6 +6,7 @@ html,body{
     background: #000;
     font-family: spot;
     color : #fff;
+    font-size : 16px;
 }
 
 #search_bar{
@@ -13,26 +14,35 @@ html,body{
     position: fixed;
     z-index: 2;
     width: 100%;
-    top: 0;
+    bottom: 0%;
     background: #444;
     height: 7%;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 2px -2px 2px 2px  rgba(255, 255, 255, 0.39);
 }
+
+ 
 
 #search {
     width: 70%;
-    border: 0;
-    height: 95%;
+    height: 100%;
     text-align: center;
     color: #000;
     font-family: spot;
     font-size: 2em;
-    display: r
+    display: block;
+    padding: 0;
+    outline : none;
+    border: none;
 }
 
 #search_button{
+    width: 30%;
+    height: 100%;
     color: #fff;
     font-size: 1.7em;  
-    margin-left: .6em;
+    text-align: center;
 }
  
 #photos > img {
